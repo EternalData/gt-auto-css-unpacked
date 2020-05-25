@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{587E8E58-77E6-4FA2-B5A9-7CEB66075BB0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GT Auto-CCS by RealGoblins</RootNamespace>
+    <AssemblyName>GT Auto-CCS by RealGoblins</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>GT Auto-CCS by RealGoblins.ico</ApplicationIcon>
+    <StartupObject>pq.KA</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Growtopia-Auto-CCS-master\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DotRas">
+      <HintPath>..\..\Growtopia-Auto-CCS-master\DotRas.dll</HintPath>
+    </Reference>
+    <Reference Include="Memory">
+      <HintPath>..\..\Growtopia-Auto-CCS-master\Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\Growtopia-Auto-CCS-master\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Tesseract">
+      <HintPath>..\..\Growtopia-Auto-CCS-master\Tesseract.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="a.cs" />
+    <Compile Include="aQ.cs" />
+    <Compile Include="bD.cs" />
+    <Compile Include="bF.cs" />
+    <Compile Include="bg.cs" />
+    <Compile Include="bl.cs" />
+    <Compile Include="bm.cs" />
+    <Compile Include="bR\bQ.cs" />
+    <Compile Include="c.cs" />
+    <Compile Include="cG\cF.cs" />
+    <Compile Include="cU\cT.cs" />
+    <Compile Include="dummy\{8f4953d1-9517-4046-be05-dd60e4a02115}.cs" />
+    <Compile Include="dummy\{931f1a02-f0a8-4062-9ff8-a0c4f0adab6b}.cs" />
+    <Compile Include="ExitDelegate.cs" />
+    <Compile Include="f.cs" />
+    <Compile Include="fG\fF.cs" />
+    <Compile Include="fG\fP.cs" />
+    <Compile Include="fG\gF.cs" />
+    <Compile Include="fG\gH.cs" />
+    <Compile Include="fG\gI.cs" />
+    <Compile Include="fG\go.cs" />
+    <Compile Include="fG\gU.cs" />
+    <Compile Include="fG\hh.cs" />
+    <Compile Include="fG\ig.cs" />
+    <Compile Include="fG\ik.cs" />
+    <Compile Include="fG\iL.cs" />
+    <Compile Include="fG\iT.cs" />
+    <Compile Include="fG\jA.cs" />
+    <Compile Include="fG\jB.cs" />
+    <Compile Include="fG\jy.cs" />
+    <Compile Include="fG\jz.cs" />
+    <Compile Include="fG\kh.cs" />
+    <Compile Include="fG\kI.cs" />
+    <Compile Include="fG\kr.cs" />
+    <Compile Include="fG\kZ.cs" />
+    <Compile Include="fG\lD.cs" />
+    <Compile Include="fG\lI.cs" />
+    <Compile Include="fG\lk.cs" />
+    <Compile Include="fG\lL.cs" />
+    <Compile Include="fG\ln.cs" />
+    <Compile Include="fG\lo.cs" />
+    <Compile Include="fG\lp.cs" />
+    <Compile Include="fG\lq.cs" />
+    <Compile Include="fG\lR.cs" />
+    <Compile Include="fG\mc.cs" />
+    <Compile Include="fG\mx.cs" />
+    <Compile Include="fG\ni.cs" />
+    <Compile Include="fG\nj.cs" />
+    <Compile Include="fG\oc.cs" />
+    <Compile Include="fG\oh.cs" />
+    <Compile Include="fG\oj.cs" />
+    <Compile Include="fG\ol.cs" />
+    <Compile Include="fG\om.cs" />
+    <Compile Include="fk\fj.cs" />
+    <Compile Include="Growtopia_macro\Properties\Settings.cs" />
+    <Compile Include="Growtopia_macro\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="IWshRuntimeLibrary\IWshCollection.cs" />
+    <Compile Include="IWshRuntimeLibrary\IWshShell.cs" />
+    <Compile Include="IWshRuntimeLibrary\IWshShell3.cs" />
+    <Compile Include="IWshRuntimeLibrary\IWshShortcut.cs" />
+    <Compile Include="LX\cF.cs" />
+    <Compile Include="oK\oI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oK\oI.Designer.cs">
+      <DependentUpon>oI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oK\pa.cs" />
+    <Compile Include="oo\on.cs" />
+    <Compile Include="pq\Hs.cs" />
+    <Compile Include="pq\HX.cs" />
+    <Compile Include="pq\IE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pq\IE.Designer.cs">
+      <DependentUpon>IE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pq\Ii.cs" />
+    <Compile Include="pq\Jd.cs" />
+    <Compile Include="pq\Jj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pq\Jj.Designer.cs">
+      <DependentUpon>Jj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pq\KA.cs" />
+    <Compile Include="pq\KC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pq\KC.Designer.cs">
+      <DependentUpon>KC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pq\LE.cs" />
+    <Compile Include="pq\Ls.cs" />
+    <Compile Include="pq\Ly.cs" />
+    <Compile Include="pq\pp.cs" />
+    <Compile Include="pq\pw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pq\pw.Designer.cs">
+      <DependentUpon>pw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Q.cs" />
+    <Compile Include="T.cs" />
+    <Compile Include="z.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LX\cF.resources" />
+    <EmbeddedResource Include="oK\oI.resources" />
+    <EmbeddedResource Include="oK\pa.resources" />
+    <EmbeddedResource Include="pq\IE.resources" />
+    <EmbeddedResource Include="pq\Jd.resources" />
+    <EmbeddedResource Include="pq\Jj.resources" />
+    <EmbeddedResource Include="pq\KC.resources" />
+    <EmbeddedResource Include="pq\Ls.resources" />
+    <EmbeddedResource Include="pq\pw.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="Growtopia_macro\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

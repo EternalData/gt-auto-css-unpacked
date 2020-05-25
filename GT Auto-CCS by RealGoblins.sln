@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT Auto-CCS by RealGoblins", "GT Auto-CCS by RealGoblins\GT Auto-CCS by RealGoblins.csproj", "{587E8E58-77E6-4FA2-B5A9-7CEB66075BB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{587E8E58-77E6-4FA2-B5A9-7CEB66075BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587E8E58-77E6-4FA2-B5A9-7CEB66075BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587E8E58-77E6-4FA2-B5A9-7CEB66075BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587E8E58-77E6-4FA2-B5A9-7CEB66075BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
